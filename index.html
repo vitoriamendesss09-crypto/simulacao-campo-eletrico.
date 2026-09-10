@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Simulação Interativa de Campo Elétrico</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>⚡ Simulação Interativa de Campo Elétrico</h1>
+
+        <p>
+            Adicione cargas elétricas e observe como o campo elétrico
+            se comporta.
+        </p>
+    </header>
+
+    <section class="controles">
+
+        <button id="positiva">
+            ➕ Adicionar carga positiva
+        </button>
+
+        <button id="negativa">
+            ➖ Adicionar carga negativa
+        </button>
+
+        <button id="limpar">
+            🗑 Limpar simulação
+        </button>
+
+    </section>
+
+    <main>
+
+        <canvas id="canvas" width="900" height="600"></canvas>
+
+    </main>
+
+    <section class="informacoes">
+
+        <h2>📚 Como funciona?</h2>
+
+        <p>
+            Escolha uma carga positiva ou negativa e clique dentro da
+            área da simulação para posicioná-la.
+        </p>
+
+        <p>
+            As setas representam a direção do campo elétrico resultante
+            produzido pelas cargas.
+        </p>
+
+        <p>
+            O campo elétrico é calculado utilizando o princípio da
+            superposição.
+        </p>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
